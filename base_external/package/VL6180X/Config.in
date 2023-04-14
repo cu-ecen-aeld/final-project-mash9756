@@ -1,0 +1,4 @@
+config BR2_PACKAGE_VL6180X
+	bool "VL6180X"
+	help
+	  Add VL6180x program to read LUX values
