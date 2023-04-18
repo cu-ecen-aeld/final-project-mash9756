@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-LCD_VERSION = '990472809abe91e5526257a19e90ae200d5e8142'
+LCD_VERSION = '6a9966543182c2866394ba7ec546474516cc44eb'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
