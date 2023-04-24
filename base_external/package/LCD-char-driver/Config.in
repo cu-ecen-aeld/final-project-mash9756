@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_LCD_CHAR_DRIVER
+	bool "LCD-char-driver"
+	help
+	  LCD char device driver, includes load and unload scripts
