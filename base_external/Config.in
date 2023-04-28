@@ -1,3 +1,2 @@
-source "$BR2_EXTERNAL_assignment_base_PATH/package/LCD/Config.in"
 source "$BR2_EXTERNAL_assignment_base_PATH/package/VL6180X/Config.in"
 source "$BR2_EXTERNAL_assignment_base_PATH/package/LCD-char-driver/Config.in"

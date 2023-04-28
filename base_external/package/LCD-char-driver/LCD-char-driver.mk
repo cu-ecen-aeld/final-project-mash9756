@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-LCD_CHAR_DRIVER_VERSION = 'a6fd6fa1fee610be0b4e34fa6c36a9163fbaccf8'
+LCD_CHAR_DRIVER_VERSION = 'd58fdb77670f8712eedebaf01fa30d69b296263d'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
@@ -23,6 +23,7 @@ $(eval $(kernel-module))
 define LCD_CHAR_DRIVER_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/src/driver/LCDchar_load $(TARGET_DIR)/sbin/
 	$(INSTALL) -m 0755 $(@D)/src/driver/LCDchar_unload $(TARGET_DIR)/sbin/
+	$(INSTALL) -m 0755 $(@D)/src/driver/lcdinit $(TARGET_DIR)/sbin/
 endef
 
 
