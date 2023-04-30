@@ -13,10 +13,6 @@ case "$1" in
         lcdinit
         echo "Done!"
 
-        sleep 5
-        echo -n Starting ALS... >> /dev/LCD_device
-        sleep 5
-        
         echo "Starting i2c..."
         modprobe i2c-bcm2835
         modprobe i2c-dev

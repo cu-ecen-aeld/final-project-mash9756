@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-VL6180X_VERSION = 'e69df8c5f5ee4baf78020cbd6e86b2bc05c72d57'
+VL6180X_VERSION = '123684dd2ee8b66d345746b35dcaa5c804780246'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
